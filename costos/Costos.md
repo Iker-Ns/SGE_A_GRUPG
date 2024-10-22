@@ -23,6 +23,5 @@
 
     Una vegada pagat es pot veure la llista de pagaments dintre d'aquest rebut.
 ![Imatge 8](imatges/Img8.PNG)
-
 </body>
 </html>
