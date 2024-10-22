@@ -1,5 +1,5 @@
 # Compres
-    Una vegada instal·lat l'aplicació compra i accedim a ella podem veure que està buida, ja que no hem creat cap pressupost. 
+    Una vegada instal·lada l'aplicació compra i accedim a ella podrem veure que està buida, ja que no hem creat cap pressupost. 
     Per crear un pressupost hem de fer una sol·licitud de pressupost al botó de l'esquerra superior.
 ![Imatge 1](imatges/Img1.PNG)
 
