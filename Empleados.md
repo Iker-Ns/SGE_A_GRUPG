@@ -6,7 +6,7 @@ El módulo de empleados permite administrar toda la información relacionada con
 
 ## Instalación
 
-Para instalar el módulo de "Empleados" tendrás que ir a "Aplicaciones" y buscar el módulo de empleados, una vez lo hayas encontrado tendrás que darle a instalar.
+Para instalar el módulo de empleados tendrás que ir a aplicaciones y buscar el módulo de empleados, una vez lo hayas encontrado tendrás que darle a instalar.
 
 ![Imagen Instalación](Images/Empleados/InstalaciónEmpleados.png)
 
@@ -16,7 +16,7 @@ Ahora si vas al panel centrar verás que ya tienes la aplicación instalada.
 
 ## Empleados
 
-En panel de empleados permite gestionar a los empleados junto a toda su información y visualizarla.
+El panel de empleados permite gestionar a los empleados junto a toda su información y visualizarla.
 
 ![Imagen Empleados Panel](Images/Empleados/MainPanel.png)
 
