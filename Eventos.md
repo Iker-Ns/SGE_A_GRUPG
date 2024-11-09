@@ -4,7 +4,7 @@
 
 1. [Propósito del Módulo](#1-propósito-del-módulo)
 2. [Instalación](#2-instalación)
-3. [Panel Principal](#3-panel-principal)
+3. [Panel principal](#3-panel-principal)
    - [Creación de un nuevo evento](#31-creación-de-un-nuevo-evento)
    - [Organización por Etapas](#32-organización-por-etapas)
    - [Entradas](#33-entradas)
