@@ -1,88 +1,100 @@
-# Modulo de Eventos
-## Estructura de la documentación
+# Módulo de Eventos
+
+## Estructura de la Documentación
 
 1. [Propósito del Módulo](#1-propósito-del-módulo)
 2. [Instalación](#2-instalación)
 3. [Panel Principal](#3-panel-principal)
    - [Creación de un nuevo evento](#31-creación-de-un-nuevo-evento)
-        - [Entradas](#31-entradas)
-        - [Comunicación](#32-comunicación)
-        - [Preguntas](#33-preguntas)
-        - [Notas](#34-notas)
+   - [Organización por Etapas](#32-organización-por-etapas)
+   - [Entradas](#33-entradas)
+   - [Comunicación](#34-comunicación)
+   - [Preguntas](#35-preguntas)
+   - [Notas](#36-notas)
 4. [Informes](#4-informes)
 
 ## 1. Propósito del Módulo
-El módulo de eventos te permite administrar eventos, enviar correos automatizados a los clientes que vayan a asistir, generar estadísticas, etc.
+
+El módulo de eventos permite administrar eventos, enviar correos automatizados a los asistentes y generar estadísticas sobre los eventos.
 
 ## 2. Instalación
+
 Para instalar el módulo de eventos, sigue estos pasos:
 
-1. **Acceder a la sección de aplicaciones**
-Ve al apartado de aplicaciones en el panel central del Odoo y busca el módulo de **Eventos**.
-    ![Imagen Eventos Instalación View](Images/Eventos/EventosInstalación.png)
+1. **Acceder a la sección de aplicaciones**  
+Dirígete al apartado de aplicaciones en el panel central de **Odoo** y busca el módulo de **Eventos**. Y haz clic al botón de instalar.
 
-2. **Instalar el módulo**
-Una vez localizado el Módulo tendrás que darle al botón de **Instalar**
-    ![Imagen Eventos Boton Instalar](Images/Eventos/EventosInstalado.png)
+   ![Buscar módulo de eventos](Images/Eventos/EventosInstalación.png)
 
-## 3. Panel Principal
+2. **Vuelve al Panel Central**
+Ahora dirige al panel central y verás que la aplicación de **Eventos** ya está instalada.
 
-En el **Panel Principal** podrás ver y gestionar todos los eventos programados.
-    ![Imagen Eventos Vacio](Images/Eventos/EventosVacio.png)
+   ![Módulo de eventos instalado](Images/Eventos/EventosInstalado.png)
+
+## 3. Panel principal
+
+En el **panel principal** puedes ver y gestionar todos los eventos programados.
+
+   ![Panel de eventos vacío](Images/Eventos/EventosVacio.png)
 
 ### 3.1 Creación de un nuevo evento
-Para agregar un nuevo evento tendrás hacer clic al botón de **Nuevo** y rellenar los datos.
-    ![Imagen Eventos Vacio](Images/Eventos/EventoCrearEj.png)
-Aquí podrás editar el responsable que se encargara del evento, podrás poner notas sobre él, etc.
 
-> [!NOTE]
-> Es importante resaltar que los **Eventos** se organizan por **Etapas**, para asignarle a un **Evento** una **Etapa** tendrás que ir a la configuración de este y seleccionar la **Etapa** que desees.
-> ![Imagen Eventos Etapa](Images/Eventos/EventosEtapa.png)
-> O puedes crear una "Etapa" nueva en el panel principal, donde se muestran todos los eventos.
-> ![Imagen Eventos Etapa](Images/Eventos/CrearEventosEtapa.png)
+Para agregar un nuevo evento, haz clic en el botón **Nuevo** y completa los datos necesarios, como el nombre del evento, descripción, y detalles adicionales.
 
-Dentro de este panel hay 4 categorias: Entradas, Comunicación, Preguntas y Notas.
+   ![Ejemplo de creación de evento](Images/Eventos/EventoCrearEj.png)
 
-### Entradas
+Una vez rellenados los datos, regresa al **panel principal** para visualizar tu evento creado.
 
-En esta categoria podrás configurar el nombre de las entradas, su precio, su fecha de inicio y final de venta y la cantidad maxima que se pueden vender.
+   ![Evento creado](Images/Eventos/CreadoYa.png)
 
-Para crear una entrada simplemente tendrás que darle a "Agregar una línea" y configurar los valores antes mencionados.
+### 3.2 Organización por Etapas
 
-![Imagen Creado Ya](Images/Eventos/ConfigEntradas.png)
+Los eventos se organizan por **Etapas**. Puedes asignar una etapa durante la configuración del evento, eligiendo entre las cinco etapas predeterminadas.
 
-### Comunicación
+   ![Asignación de etapa al evento](Images/Eventos/EventosEtapa.png)
 
-En esta categoria podrás configurar si quieres enviar mensajes a los compradores de las entradas, cada mensaje se enviara despues de determinado evento, por ejemplo si quieres que se envien despues de que un comprador compre una entrada tendrás que configurarlo tal que asi:
+Si ninguna de las etapas predeterminadas se ajusta a tus necesidades, puedes crear una etapa nueva en el [panel principal](#3-panel-principal).
 
-Primero tendrás que darle a "Agregar una línea" y seleccionar una plantilla o crea una, en este caso voy a crear una plantilla personalizada.
+   ![Creación de nueva etapa](Images/Eventos/CrearEventosEtapa.png)
 
-![Imagen Creado Ya](Images/Eventos/ConfigPlantillaEntradas.png)
+### 3.3 Entradas
 
-### Preguntas
+En esta categoría, puedes configurar los detalles de las entradas, como nombre, fecha de disponibilidad, cantidad máxima y precio.
 
-En esta categoria podrás configurar las preguntas que se le hacen a cada cliente al comprar una entrada.
+Para crear una nueva entrada, haz clic en **Agregar una línea** y completa los valores necesarios.
 
-![Imagen Preguntas](Images/Eventos/EventosPreguntas.png)
+   ![Configuración de entradas](Images/Eventos/ConfigEntradas.png)
 
-### Notas
+### 3.4 Comunicación
 
-En esta categoria podrás añadir notas internas o información para los clientes.
+En esta categoría, puedes configurar mensajes automáticos para enviar a los compradores. Cada mensaje puede programarse para enviarse después de un evento específico, como la compra de una entrada.
 
-![Imagen Notas](Images/Eventos/EventosNotas.png)
+Para agregar un mensaje, haz clic en **Agregar una línea** y elige una plantilla o crea una personalizada.
 
-## Informes
+   ![Plantillas disponibles](Images/Eventos/EventosPlantillas.png)
 
-En este apartado podrás ver estadisticas sobre los asistenses de los eventos, por ejemplo podrás ver los asistentes que se han inscrito y usar esa información a tu beneficio.
+Para crear una plantilla tendrás que poner el nombre de tu desees y darle al **enter**, te saldrá el menú que ves en la foto, aquí podrás configurar el contenido que quieres enviar en el mensaje, el asunto, etc.
+   ![Creación de plantilla de comunicación](Images/Eventos/ConfigPlantillaEntradas.png)
 
-![Imagen Asistentes](Images/Eventos/EventosAsistentes.png)
+Una vez hayas terminado solo tendrás que configurar cuando quieres que se envíe el mensaje, el medio de comunicación (correo o SMS), cuando se envía, el intervalo, etc.
+   ![Creación de plantilla completada](Images/Eventos/EventosEntradaCompradaEj.png)
 
-## Overview
+### 3.5 Preguntas
 
-Una vez hayas terminado de configurar tu plantilla dale al boton de "Guardar y cerrar".
+Aquí puedes configurar preguntas que se mostrarán a cada cliente al comprar una entrada.
 
-![Img](Images/Eventos/EventosEntradaCompradaEj.png)
+   ![Configuración de preguntas](Images/Eventos/EventosPreguntas.png)
 
-Una vez has acabado puedes volver atrás y ya habrás creado un evento.
+Para agregar una pregunta nueva simplemente tendrás que darle a **Agregar una línea**.
 
-![Imagen Creado Ya](Images/Eventos/CreadoYa.png)
+### 3.6 Notas
+
+En esta categoría puedes añadir notas internas o información relevante para los clientes.
+
+   ![Configuración de notas](Images/Eventos/EventosNotas.png)
+
+## 4. Informes
+
+En la sección de **Informes**, puedes ver estadísticas sobre la asistencia a los eventos, lo que permite realizar análisis detallados y ver qué eventos triunfan más para poder sacar partido de ello.
+
+   ![Estadísticas de asistentes](Images/Eventos/EventosAsistentes.png)
