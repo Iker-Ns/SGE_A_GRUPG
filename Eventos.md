@@ -1,48 +1,42 @@
 # Modulo de Eventos
-
 ## Estructura de la documentación
 
 1. [Propósito del Módulo](#1-propósito-del-módulo)
 2. [Instalación](#2-instalación)
-3. [Eventos](#3-eventos)
-   - [Entradas](#31-entradas)
-   - [Comunicación](#32-comunicación)
-   - [Preguntas](#33-preguntas)
-   - [Notas](#34-notas)
+3. [Panel Principal](#3-panel-principal)
+   - [Creación de un nuevo evento](#31-creación-de-un-nuevo-evento)
+        - [Entradas](#31-entradas)
+        - [Comunicación](#32-comunicación)
+        - [Preguntas](#33-preguntas)
+        - [Notas](#34-notas)
 4. [Informes](#4-informes)
 
 ## 1. Propósito del Módulo
-
 El módulo de eventos te permite administrar eventos, enviar correos automatizados a los clientes que vayan a asistir, generar estadísticas, etc.
 
 ## 2. Instalación
-
 Para instalar el módulo de eventos, sigue estos pasos:
 
 1. **Acceder a la sección de aplicaciones**
-Ve al apartado de aplicaciones en el panel central del Odoo y busca el módulo de "Eventos".
-
-![Imagen Eventos Instalación View](Images/Eventos/EventosInstalación.png)
+Ve al apartado de aplicaciones en el panel central del Odoo y busca el módulo de **Eventos**.
+    ![Imagen Eventos Instalación View](Images/Eventos/EventosInstalación.png)
 
 2. **Instalar el módulo**
-Una vez localizado el Módulo tendrás que darle al botón de "Instalar"
+Una vez localizado el Módulo tendrás que darle al botón de **Instalar**
+    ![Imagen Eventos Boton Instalar](Images/Eventos/EventosInstalado.png)
 
-![Imagen Eventos Boton Instalar](Images/Eventos/EventosInstalado.png)
+## 3. Panel Principal
 
-## Eventos
+En el **Panel Principal** podrás ver y gestionar todos los eventos programados.
+    ![Imagen Eventos Vacio](Images/Eventos/EventosVacio.png)
 
-Esto es el panel central aquí puedes ver todos tus eventos programados.
-
-![Imagen Eventos Vacio](Images/Eventos/EventosVacio.png)
-
-Para crear un nuevo evento tendrás que darle al botón de "Nuevo" y rellenar los datos.
-
-![Imagen Eventos Vacio](Images/Eventos/EventoCrearEj.png)
-
+### 3.1 Creación de un nuevo evento
+Para agregar un nuevo evento tendrás hacer clic al botón de **Nuevo** y rellenar los datos.
+    ![Imagen Eventos Vacio](Images/Eventos/EventoCrearEj.png)
 Aquí podrás editar el responsable que se encargara del evento, podrás poner notas sobre él, etc.
 
 > [!NOTE]
-> Los eventos se organizan por "Etapas", se pueden asignar al configurar un evento.
+> Es importante resaltar que los **Eventos** se organizan por **Etapas**, para asignarle a un **Evento** una **Etapa** tendrás que ir a la configuración de este y seleccionar la **Etapa** que desees.
 > ![Imagen Eventos Etapa](Images/Eventos/EventosEtapa.png)
 > O puedes crear una "Etapa" nueva en el panel principal, donde se muestran todos los eventos.
 > ![Imagen Eventos Etapa](Images/Eventos/CrearEventosEtapa.png)
