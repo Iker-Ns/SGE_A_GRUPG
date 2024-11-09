@@ -1,18 +1,22 @@
-# Modulo de Empleados
+# Módulo de Empleados
 
-## About
+## Estructura de la documentación
 
-El módulo de empleados permite administrar toda la información relacionada con el personal de tu empresa, incluyendo detalles sobre sus puestos de trabajo, informes de habilidades, información privada y la gestión de departamentos.
+## 1. Propósito del módulo
 
-## Instalación
+El módulo de empleados te permite administrar toda la información relacionada con el personal de tu empresa, incluyendo detalles sobre sus puestos de trabajo, informes de habilidades, información privada y la gestión de departamentos.
 
-Para instalar el módulo de empleados tendrás que ir a aplicaciones y buscar el módulo de empleados, una vez lo hayas encontrado tendrás que darle a instalar.
+## 2. Instalación
 
-![Imagen Instalación](Images/Empleados/InstalaciónEmpleados.png)
+1. **Acceder a la sección de aplicaciones**
+Dirígete al apartado de aplicaciones en el panel central de **Odoo** y busca el módulo de **empleados**. Y haz clic al botón de instalar.
 
-Ahora si vas al panel centrar verás que ya tienes la aplicación instalada.
+   ![Buscar módulo de empleados](Images/Empleados/InstalaciónEmpleados.png)
 
-![Imagen Ya Instalado](Images/Empleados/YaInstalado.png)
+2. **Vuelve al Panel Central**
+Ahora dirige al panel central y verás que la aplicación de **empleados** ya está instalada.
+
+   ![Módulo de empleados instalado](Images/Empleados/YaInstalado.png)
 
 ## Empleados
 
