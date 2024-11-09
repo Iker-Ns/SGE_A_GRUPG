@@ -2,7 +2,14 @@
 
 ## Estructura de la documentación
 
-
+1. [Propósito del Módulo](#1-propósito-del-módulo)
+2. [Instalación](#2-instalación)
+3. [Panel principal](#3-panel-principal)
+   - [Dar de alta a un empleado](#31-dar-de-alta-a-un-empleado)
+4. [Gestión de departamentos](#4-gestión-de-departamentos)
+   - [Añadir empleados](#41-añadir-empleados)
+   - [Gestionar actividades](#42-gestionar-actividades)
+5. [Informes](#5-informes)
 
 ## 1. Propósito del módulo
 
@@ -40,7 +47,7 @@ En este panel podrás gestionar a tu empleado y modificar su información, cada 
 
 Una vez hayas terminado de rellenar los datos puedes volver atrás haciendo clic al botón de **Empleados**.
 
-## 4. Departamentos
+## 4. Gestión de departamentos
 
 Si tu empresa tiene varios departamentos en esta sección podrás gestionarlos, además podrás asignar empleados en cada departamento y asignarles actividades, puestos de trabajo entre otros.
 
@@ -62,7 +69,7 @@ O podemos ir al **panel principal** de **Empleados** y modificar a un empleado p
 
 ![Añadir a un departamento un empleado existente](Images/Empleados/DepartamentosEmpleadosAñadir.png)
 
-### 4.2 Actividades
+### 4.2 Gestionar actividades
 
 Para añadir una actividad a un empleado tendrás que ir al apartado de empleados dentro del departamento donde pertenezca este mismo.
 
