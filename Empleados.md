@@ -1,96 +1,96 @@
-# Módulo de Empleados
+# Mòdul d'Empleats
 
-## Estructura de la documentación
+## Estructura de la documentació
 
-1. [Propósito del Módulo](#1-propósito-del-módulo)
-2. [Instalación](#2-instalación)
-3. [Panel principal](#3-panel-principal)
-   - [Dar de alta a un empleado](#31-dar-de-alta-a-un-empleado)
-4. [Gestión de departamentos](#4-gestión-de-departamentos)
-   - [Añadir empleados](#41-añadir-empleados)
-   - [Gestionar actividades](#42-gestionar-actividades)
+1. [Propòsit del Mòdul](#1-propòsit-del-mòdul)
+2. [Instal·lació](#2-instal·lació)
+3. [Panell principal](#3-panell-principal)
+   - [Donar d'alta a un empleat](#31-donar-dalta-a-un-empleat)
+4. [Gestió de departaments](#4-gestió-de-departaments)
+   - [Afegir empleats](#41-afegir-empleats)
+   - [Gestionar activitats](#42-gestionar-activitats)
 5. [Informes](#5-informes)
 
-## 1. Propósito del módulo
+## 1. Propòsit del mòdul
 
-El módulo de empleados te permite administrar toda la información relacionada con el personal de tu empresa, incluyendo detalles sobre sus puestos de trabajo, informes de habilidades, información privada y la gestión de departamentos.
+El mòdul d'empleats et permet gestionar tota la informació relacionada amb el personal de la teva empresa, incloent-hi detalls sobre els seus llocs de treball, informes de habilitats, informació privada i la gestió de departaments.
 
-## 2. Instalación
+## 2. Instal·lació
 
-1. **Acceder a la sección de aplicaciones**
-Dirígete al apartado de aplicaciones en el panel central de **Odoo** y busca el módulo de **empleados**. Y haz clic al botón de instalar.
+1. **Accedir a la secció d'aplicacions**
+Ves a la secció d'aplicacions al panell central de **Odoo** i cerca el mòdul d'**empleats**. I fes clic al botó d'instal·lar.
 
-   ![Buscar módulo de empleados](Images/Empleados/InstalaciónEmpleados.png)
+   ![Buscar mòdul d'empleats](Images/Empleados/InstalaciónEmpleados.png)
 
-2. **Vuelve al Panel Central**
-Ahora dirige al panel central y verás que la aplicación de **empleados** ya está instalada.
+2. **Torna al Panell Central**
+Ara dirigeix-te al panell central i veuràs que l'aplicació d'**empleats** ja està instal·lada.
 
-   ![Módulo de empleados instalado](Images/Empleados/YaInstalado.png)
+   ![Mòdul d'empleats instal·lat](Images/Empleados/YaInstalado.png)
 
-## 3. Panel principal
+## 3. Panell principal
 
-El **panel principal** te permite gestionar a los empleados junto a toda su información y visualizarla.
+El **panell principal** et permet gestionar els empleats juntament amb tota la seva informació i visualitzar-la.
 
-   ![Imagen Empleados panel principal](Images/Empleados/MainPanel.png)
+   ![Imatge Empleats panell principal](Images/Empleados/MainPanel.png)
 
-### 3.1 Dar de alta a un empleado
+### 3.1 Donar d'alta a un empleat
 
-Para dar de alta a un empleado tendrás que darle clic a **Nuevo** y rellenar los datos obligatorios.
+Per donar d'alta a un empleat hauràs de fer clic a **Nou** i omplir les dades obligatòries.
 
-![Dar de alta a un empleado](Images/Empleados/EmpleadosAlta.png)
+![Donar d'alta a un empleat](Images/Empleados/EmpleadosAlta.png)
 
-En este panel podrás gestionar a tu empleado y modificar su información, cada empleado consta de 3 apartados:
+En aquest panell podràs gestionar el teu empleat i modificar la seva informació, cada empleat consta de 3 apartats:
 
 - Currículum.
-- Datos personales.
-- Información privada.
+- Dades personals.
+- Informació privada.
 
-Una vez hayas terminado de rellenar los datos puedes volver atrás haciendo clic al botón de **Empleados**.
+Un cop hagis acabat d'omplir les dades, pots tornar enrere fent clic al botó d'**Empleats**.
 
-## 4. Gestión de departamentos
+## 4. Gestió de departaments
 
-Si tu empresa tiene varios departamentos en esta sección podrás gestionarlos, además podrás asignar empleados en cada departamento y asignarles actividades, puestos de trabajo entre otros.
+Si la teva empresa té diversos departaments, en aquesta secció podràs gestionar-los, a més podràs assignar empleats a cada departament i assignar-los activitats, llocs de treball, entre altres.
 
-![Panel de departamentos](Images/Empleados/DepartamentosPanel.png)
+![Panell de departaments](Images/Empleados/DepartamentosPanel.png)
 
-Para crear un departamento simplemente tendrás que hacer clic a **Nuevo** y rellenar los datos.
+Per crear un departament simplement hauràs de fer clic a **Nou** i omplir les dades.
 
-![Crear nuevo departamento](Images/Empleados/DepartamentosCrear.png)
+![Crear nou departament](Images/Empleados/DepartamentosCrear.png)
 
-Por ejemplo, en este caso he creado un departamento de recursos humanos y le he asignado a Pepe como gerente.
+Per exemple, en aquest cas he creat un departament de recursos humans i li he assignat a Pepe com a gerent.
 
-### 4.1 Añadir empleados
+### 4.1 Afegir empleats
 
-Para añadir empleados al departamento los podemos crear en el apartado de **Empleados** dentro del departamento.
+Per afegir empleats al departament els podem crear a l'apartat d'**Empleats** dins del departament.
 
-![Crear un empleado en un departamento](Images/Empleados/DepartamentosEmpleadosCrear.png)
+![Crear un empleat en un departament](Images/Empleados/DepartamentosEmpleadosCrear.png)
 
-O podemos ir al **panel principal** de **Empleados** y modificar a un empleado para no tener que crear uno.
+O podem anar al **panell principal** d'**Empleats** i modificar un empleat per no haver de crear-ne un de nou.
 
-![Añadir a un departamento un empleado existente](Images/Empleados/DepartamentosEmpleadosAñadir.png)
+![Afegir a un departament un empleat existent](Images/Empleados/DepartamentosEmpleadosAñadir.png)
 
-### 4.2 Gestionar actividades
+### 4.2 Gestionar activitats
 
-Para añadir una actividad a un empleado tendrás que ir al apartado de empleados dentro del departamento donde pertenezca este mismo.
+Per afegir una activitat a un empleat hauràs d'anar a l'apartat d'empleats dins del departament on pertanyi aquest mateix.
 
-![Imagen Act1](Images/Empleados/Act1.png)
+![Imatge Act1](Images/Empleados/Act1.png)
 
-![Imagen Act2](Images/Empleados/Act2.png)
+![Imatge Act2](Images/Empleados/Act2.png)
 
-![Imagen Act3](Images/Empleados/Act3.png)
+![Imatge Act3](Images/Empleados/Act3.png)
 
-![Imagen Act4](Images/Empleados/Act4.png)
+![Imatge Act4](Images/Empleados/Act4.png)
 
 ## 5. Informes
 
-Los informes permiten llevar un registro sobre las habilidades de cada empleado, esto puede ser útil para planificar mejor que empleado destinar a X tarea.
+Els informes permeten portar un registre sobre les habilitats de cada empleat, això pot ser útil per planificar millor quin empleat destinar a una tasca X.
 
-Para añadir las habilidades a un empleado tendremos que ir al **panel de principal**, dar clic al cliente que queremos editar e ir al apartado de **Habilidades**.
+Per afegir les habilitats a un empleat haurem d'anar al **panell principal**, fer clic al client que volem editar i anar a l'apartat d'**Habilitats**.
 
-![Imagen Paso 1](Images/Empleados/InformesPaso1.png)
+![Imatge Pas 1](Images/Empleados/InformesPaso1.png)
 
-![Imagen Paso 2](Images/Empleados/InformesPaso2.png)
+![Imatge Pas 2](Images/Empleados/InformesPaso2.png)
 
-![Imagen Paso 3](Images/Empleados/InformesPaso3.png)
+![Imatge Pas 3](Images/Empleados/InformesPaso3.png)
 
-Puedes añadir/eliminar las habilidades en la configuración.
+Pots afegir/eliminar les habilitats a la configuració.

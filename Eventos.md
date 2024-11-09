@@ -1,100 +1,102 @@
-# Módulo de Eventos
+# Mòdul d'Esdeveniments
 
-## Estructura de la documentación
+## Estructura de la documentació
 
-1. [Propósito del Módulo](#1-propósito-del-módulo)
-2. [Instalación](#2-instalación)
-3. [Panel principal](#3-panel-principal)
-   - [Creación de un nuevo evento](#31-creación-de-un-nuevo-evento)
-   - [Organización por Etapas](#32-organización-por-etapas)
-   - [Entradas](#33-entradas)
-   - [Comunicación](#34-comunicación)
-   - [Preguntas](#35-preguntas)
-   - [Notas](#36-notas)
+1. [Propòsit del Mòdul](#1-propòsit-del-mòdul)
+2. [Instal·lació](#2-instal·lació)
+3. [Panell principal](#3-panell-principal)
+   - [Creació d'un nou esdeveniment](#31-creació-dun-nou-esdeveniment)
+   - [Organització per Etapes](#32-organització-per-etapes)
+   - [Entrades](#33-entrades)
+   - [Comunicació](#34-comunicació)
+   - [Preguntes](#35-preguntes)
+   - [Notes](#36-notes)
 4. [Informes](#4-informes)
 
-## 1. Propósito del módulo
+## 1. Propòsit del mòdul
 
-El módulo de eventos permite administrar eventos, enviar correos automatizados a los asistentes y generar estadísticas sobre los eventos.
+El mòdul d'esdeveniments permet gestionar esdeveniments, enviar correus automatitzats als assistents i generar estadístiques sobre els esdeveniments.
 
-## 2. Instalación
+## 2. Instal·lació
 
-Para instalar el módulo de eventos, sigue estos pasos:
+Per instal·lar el mòdul d'esdeveniments, segueix aquests passos:
 
-1. **Acceder a la sección de aplicaciones**  
-Dirígete al apartado de aplicaciones en el panel central de **Odoo** y busca el módulo de **eventos**. Y haz clic al botón de instalar.
+1. **Accedir a la secció d'aplicacions**  
+Dirigeix-te a l'apartat d'aplicacions al panell central de **Odoo** i cerca el mòdul d'**esdeveniments**. I fes clic al botó d'instal·lar.
 
-   ![Buscar módulo de eventos](Images/Eventos/EventosInstalación.png)
+   ![Buscar mòdul d'esdeveniments](Images/Eventos/EventosInstalación.png)
 
-2. **Vuelve al Panel Central**
-Ahora dirige al panel central y verás que la aplicación de **eventos** ya está instalada.
+2. **Torna al Panell Central**
+Ara dirigeix-te al panell central i veuràs que l'aplicació d'**esdeveniments** ja està instal·lada.
 
-   ![Módulo de eventos instalado](Images/Eventos/EventosInstalado.png)
+   ![Mòdul d'esdeveniments instal·lat](Images/Eventos/EventosInstalado.png)
 
-## 3. Panel principal
+## 3. Panell principal
 
-En el **panel principal** puedes ver y gestionar todos los eventos programados.
+Al **panell principal** pots veure i gestionar tots els esdeveniments programats.
 
-   ![Panel de eventos vacío](Images/Eventos/EventosVacio.png)
+   ![Panell d'esdeveniments buit](Images/Eventos/EventosVacio.png)
 
-### 3.1 Creación de un nuevo evento
+### 3.1 Creació d'un nou esdeveniment
 
-Para agregar un nuevo evento, haz clic en el botón **Nuevo** y completa los datos necesarios, como el nombre del evento, descripción, y detalles adicionales.
+Per afegir un nou esdeveniment, fes clic al botó **Nou** i completa les dades necessàries, com el nom de l'esdeveniment, descripció, i detalls addicionals.
 
-   ![Ejemplo de creación de evento](Images/Eventos/EventoCrearEj.png)
+   ![Exemple de creació d'esdeveniment](Images/Eventos/EventoCrearEj.png)
 
-Una vez rellenados los datos, regresa al **panel principal** para visualizar tu evento creado.
+Un cop omplerts les dades, torna al **panell principal** per visualitzar el teu esdeveniment creat.
 
-   ![Evento creado](Images/Eventos/CreadoYa.png)
+   ![Esdeveniment creat](Images/Eventos/CreadoYa.png)
 
-### 3.2 Organización por etapas
+### 3.2 Organització per Etapes
 
-Los eventos se organizan por **Etapas**. Puedes asignar una etapa durante la configuración del evento, eligiendo entre las cinco etapas predeterminadas.
+Els esdeveniments s'organitzen per **Etapes**. Pots assignar una etapa durant la configuració de l'esdeveniment, triant entre les cinc etapes predeterminades.
 
-   ![Asignación de etapa al evento](Images/Eventos/EventosEtapa.png)
+   ![Assignació d'etapa a l'esdeveniment](Images/Eventos/EventosEtapa.png)
 
-Si ninguna de las etapas predeterminadas se ajusta a tus necesidades, puedes crear una etapa nueva en el [panel principal](#3-panel-principal).
+Si cap de les etapes predeterminades s'ajusta a les teves necessitats, pots crear una etapa nova al [panell principal](#3-panell-principal).
 
-   ![Creación de nueva etapa](Images/Eventos/CrearEventosEtapa.png)
+   ![Creació de nova etapa](Images/Eventos/CrearEventosEtapa.png)
 
-### 3.3 Entradas
+### 3.3 Entrades
 
-En esta categoría, puedes configurar los detalles de las entradas, como nombre, fecha de disponibilidad, cantidad máxima y precio.
+En aquesta categoria, pots configurar els detalls de les entrades, com el nom, la data de disponibilitat, quantitat màxima i preu.
 
-Para crear una nueva entrada, haz clic en **Agregar una línea** y completa los valores necesarios.
+Per crear una nova entrada, fes clic a **Afegir una línia** i completa els valors necessaris.
 
-   ![Configuración de entradas](Images/Eventos/ConfigEntradas.png)
+   ![Configuració d'entrades](Images/Eventos/ConfigEntradas.png)
 
-### 3.4 Comunicación
+### 3.4 Comunicació
 
-En esta categoría, puedes configurar mensajes automáticos para enviar a los compradores. Cada mensaje puede programarse para enviarse después de un evento específico, como la compra de una entrada.
+En aquesta categoria, pots configurar missatges automàtics per enviar als compradors. Cada missatge pot ser programat per enviar-se després d'un esdeveniment específic, com la compra d'una entrada.
 
-Para agregar un mensaje, haz clic en **Agregar una línea** y elige una plantilla o crea una personalizada.
+Per afegir un missatge, fes clic a **Afegir una línia** i tria una plantilla o crea una personalitzada.
 
-   ![Plantillas disponibles](Images/Eventos/EventosPlantillas.png)
+   ![Plantilles disponibles](Images/Eventos/EventosPlantillas.png)
 
-Para crear una plantilla tendrás que poner el nombre de tu desees y darle al **enter**, te saldrá el menú que ves en la foto, aquí podrás configurar el contenido que quieres enviar en el mensaje, el asunto, etc.
-   ![Creación de plantilla de comunicación](Images/Eventos/ConfigPlantillaEntradas.png)
+Per crear una plantilla hauràs de posar el nom que desitgis i fer clic a **enter**, et sortirà el menú que veus a la foto, aquí podràs configurar el contingut que vols enviar en el missatge, l'assumpte, etc.
 
-Una vez hayas terminado solo tendrás que configurar cuando quieres que se envíe el mensaje, el medio de comunicación (correo o SMS), cuando se envía, el intervalo, etc.
-   ![Creación de plantilla completada](Images/Eventos/EventosEntradaCompradaEj.png)
+   ![Creació de plantilla de comunicació](Images/Eventos/ConfigPlantillaEntradas.png)
 
-### 3.5 Preguntas
+Un cop hagis acabat, només hauràs de configurar quan vols que s'enviï el missatge, el mitjà de comunicació (correu o SMS), quan s'envia, l'interval, etc.
 
-Aquí puedes configurar preguntas que se mostrarán a cada cliente al comprar una entrada.
+   ![Creació de plantilla completada](Images/Eventos/EventosEntradaCompradaEj.png)
 
-   ![Configuración de preguntas](Images/Eventos/EventosPreguntas.png)
+### 3.5 Preguntes
 
-Para agregar una pregunta nueva simplemente tendrás que darle a **Agregar una línea**.
+Aquí pots configurar preguntes que es mostraran a cada client en comprar una entrada.
 
-### 3.6 Notas
+   ![Configuració de preguntes](Images/Eventos/EventosPreguntas.png)
 
-En esta categoría puedes añadir notas internas o información relevante para los clientes.
+Per afegir una pregunta nova simplement hauràs de fer clic a **Afegir una línia**.
 
-   ![Configuración de notas](Images/Eventos/EventosNotas.png)
+### 3.6 Notes
+
+En aquesta categoria pots afegir notes internes o informació rellevant per als clients.
+
+   ![Configuració de notes](Images/Eventos/EventosNotas.png)
 
 ## 4. Informes
 
-En la sección de **Informes**, puedes ver estadísticas sobre la asistencia a los eventos, lo que permite realizar análisis detallados y ver qué eventos triunfan más para poder sacar partido de ello.
+A la secció d'**Informes**, pots veure estadístiques sobre l'assistència als esdeveniments, el que permet realitzar anàlisis detallades i veure quins esdeveniments tenen més èxit per poder treure profit d'això.
 
-   ![Estadísticas de asistentes](Images/Eventos/EventosAsistentes.png)
+   ![Estadístiques d'assistents](Images/Eventos/EventosAsistentes.png)
