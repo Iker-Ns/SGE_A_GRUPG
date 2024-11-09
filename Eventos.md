@@ -1,6 +1,6 @@
 # Módulo de Eventos
 
-## Estructura de la Documentación
+## Estructura de la documentación
 
 1. [Propósito del Módulo](#1-propósito-del-módulo)
 2. [Instalación](#2-instalación)
@@ -13,7 +13,7 @@
    - [Notas](#36-notas)
 4. [Informes](#4-informes)
 
-## 1. Propósito del Módulo
+## 1. Propósito del módulo
 
 El módulo de eventos permite administrar eventos, enviar correos automatizados a los asistentes y generar estadísticas sobre los eventos.
 
@@ -22,12 +22,12 @@ El módulo de eventos permite administrar eventos, enviar correos automatizados 
 Para instalar el módulo de eventos, sigue estos pasos:
 
 1. **Acceder a la sección de aplicaciones**  
-Dirígete al apartado de aplicaciones en el panel central de **Odoo** y busca el módulo de **Eventos**. Y haz clic al botón de instalar.
+Dirígete al apartado de aplicaciones en el panel central de **Odoo** y busca el módulo de **eventos**. Y haz clic al botón de instalar.
 
    ![Buscar módulo de eventos](Images/Eventos/EventosInstalación.png)
 
 2. **Vuelve al Panel Central**
-Ahora dirige al panel central y verás que la aplicación de **Eventos** ya está instalada.
+Ahora dirige al panel central y verás que la aplicación de **eventos** ya está instalada.
 
    ![Módulo de eventos instalado](Images/Eventos/EventosInstalado.png)
 
@@ -47,7 +47,7 @@ Una vez rellenados los datos, regresa al **panel principal** para visualizar tu 
 
    ![Evento creado](Images/Eventos/CreadoYa.png)
 
-### 3.2 Organización por Etapas
+### 3.2 Organización por etapas
 
 Los eventos se organizan por **Etapas**. Puedes asignar una etapa durante la configuración del evento, eligiendo entre las cinco etapas predeterminadas.
 
