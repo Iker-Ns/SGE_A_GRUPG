@@ -7,4 +7,5 @@ Grup format per Kim Lazor ([emdickim](https://github.com/emdickim)), Mark Timbla
 - [Events](./Eventos.md) fet per: Iker Rivera.
 - [Calendari](./Calendari.md) fet per: Kim Lazaro.
 - [Costos](./Costos.md) fet per: Mark Timblau.
-- Planificació fet per: Iker Rivera.
+- [Planificació](./Planificació.md) fet per: Mark Timblau.
+- Kanban fet per: Iker Rivera.
